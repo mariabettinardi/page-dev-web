@@ -1,0 +1,221 @@
+/* Importação das fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+/* Estilo global */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2596be;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    margin-right: 1rem;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #dff5fb;
+}
+
+.carousel-inner img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.carousel-caption h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}
+
+/* Seção de Profissionais */
+#profissionais .card {
+    border: none;
+    margin-bottom: 2rem;
+}
+
+#profissionais .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+#profissionais .card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #2596be;
+}
+
+#profissionais .card-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Seção de Serviços */
+#servicos .card {
+    border: none;
+    margin-bottom: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#servicos .card:hover {
+    transform: translateY(-5px);
+}
+
+#servicos .card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+#servicos .card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #2596be;
+}
+
+#servicos .card-text {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+#servicos .btn-primary {
+    background-color: #2596be;
+    border-color: #2596be;
+}
+
+#servicos .btn-primary:hover {
+    background-color: #217c9b;
+    border-color: #217c9b;
+}
+
+#servicos .btn-secondary {
+    background-color: #dff5fb;
+    color: #2596be;
+    border-color: #2596be;
+}
+
+#servicos .btn-secondary:hover {
+    background-color: #bce6f5;
+    color: #217c9b;
+}
+
+/* Seção de Depoimentos */
+#depoimentos .card {
+    border: none;
+    margin-bottom: 2rem;
+    background-color: #2596be;
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#depoimentos .card:hover {
+    transform: translateY(-5px);
+}
+
+#depoimentos .card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+#depoimentos .card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+#depoimentos .card-text {
+    font-size: 1.1rem;
+}
+
+/* Seção de Contato */
+#contato {
+    background-color: #2596be;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+#contato h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+#contato p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#contato a {
+    color: #dff5fb;
+}
+
+#contato a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Estilos para o botão de WhatsApp */
+.btn-success {
+    background-color: #25D366;
+    border-color: #25D366;
+}
+
+.btn-success:hover {
+    background-color: #1ebe5d;
+    border-color: #1ebe5d;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+
+    #servicos .card-img-top,
+    #depoimentos .card-img-top,
+    #profissionais .card-img-top {
+        height: 200px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

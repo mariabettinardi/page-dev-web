@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome da Empresa</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menu Principal -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Hair House</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carrossel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="logos/cliente.jpeg" alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Penteados</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="logos/salao.jpeg" alt="Segundo Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Cortes</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="logos/cliente2.jpeg" alt="Terceiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tratamentos Capilares</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <!-- Seção de Profissionais -->
+    <section id="profissionais" class="my-5">
+        <div class="container">
+            <h2 class="text-center">Nossos Profissionais</h2>
+            <div class="row">
+                <!-- Profissional 1 -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <img class="card-img-top" src="funcionarios/carmem.png" alt="Profissional 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Carmen Souza</h5>
+                                <p class="card-text">Especializada em penteados para noivas e eventos, Carmen é conhecida por sua habilidade em criar looks sofisticados que realçam a personalidade de cada cliente. Com diversas certificações em penteados profissionais e consultoria de imagem, ela oferece um atendimento personalizado e detalhista.</p>
+                                <a href="https://www.linkedin.com/in/maria-eduarda-bettinardi/" class="btn btn-primary">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Profissional 2 -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <img class="card-img-top" src="funcionarios/pedro.png" alt="Profissional 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Pedro Oliveira</h5>
+                            <p class="card-text">Especialista em penteados artísticos, com uma sólida formação em design de penteados e efeitos especiais. Ele tem experiência em trabalhos para editoriais, desfiles de moda e produções audiovisuais. Além de suas competências técnicas, Pedro oferece workshops para a Hair House.</p>
+                            <a href="https://www.linkedin.com/in/ricardo-zuffo/" class="btn btn-primary">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catálogo de Serviços -->
+    <section id="servicos" class="my-5">
+        <div class="container">
+            <h2 class="text-center">Nossos Serviços</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="servicos/servico1.jpg" alt="Serviço 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Penteado para Eventos</h5>
+                            <p class="card-text">Ideal para eventos como festas, formaturas ou jantares de gala, este serviço oferece um penteado sofisticado e personalizado.</p>
+                            <a href="https://api.whatsapp.com/send?phone=55499887430141" class="btn btn-primary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="servicos/servico3.jpg" alt="Serviço 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Cortes e Estilização</h5>
+                            <p class="card-text">Cortes modernos e estilização de acordo com a preferência do cliente, sempre com o foco no realce da sua beleza natural.</p>
+                            <a href="https://api.whatsapp.com/send?phone=5549988743041" class="btn btn-primary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="servicos/servico2.jpg" alt="Serviço 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Penteado para Noivas</h5>
+                            <p class="card-text">Este serviço é especialmente criado para noivas que desejam um look impecável e duradouro no seu grande dia.</p>
+                            <a href="https://api.whatsapp.com/send?phone=5549988743041" class="btn btn-primary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="https://youtube.com" class="btn btn-secondary">Ver Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Depoimentos -->
+    <section id="depoimentos" class="my-5">
+        <div class="container">
+            <h2 class="text-center">Depoimentos</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <img class="card-img-top" src="clientes/Cliente1.jpg" alt="Cliente 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Eduarda</h5>
+                            <p class="card-text"> “Minha experiência com a Hair House foi maravilhosa! O atendimento foi impecável e o penteado que Carmen fez para o meu casamento foi perfeito. Ficou intacto durante todo o dia e recebi muitos elogios. Recomendo a todas as noivas que buscam um serviço de excelência!”</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img class="card-img-top" src="clientes/Cliente2.jpg" alt="Cliente 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Tereza</h5>
+                            <p class="card-text">“Fiz um penteado para um evento corporativo e fiquei impressionado com o resultado. O Pedro criou um visual moderno e elegante que combinou perfeitamente com o meu traje. A equipe foi extremamente profissional e atenciosa. Certamente voltarei para futuros eventos.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="my-5">
+        <div class="container">
+            <h2 class="text-center">Contato</h2>
+            <div class="mt-4">
+                <p>Nome da Empresa: Hair House</p>
+                <p>E-mail: hairhouse@gmail.com</p>
+                <p>Telefone: (48) 3361-1800</p>
+                <p>WhatsApp: (49) 98874-3041</p>
+                <a href="https://api.whatsapp.com/send?phone=5549988743041" class="btn btn-success">Conversar via WhatsApp</a>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="contatoNome">Nome</label>
+                    <input type="text" class="form-control" id="contatoNome" required>
+                </div>
+                <div class="form-group">
+                    <label for="contatoEmail">Email</label>
+                    <input type="email" class="form-control" id="contatoEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="contatoMensagem">Mensagem</label>
+                    <textarea class="form-control" id="contatoMensagem" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <!-- Seção Sobre a Empresa -->
+    <section id="sobre" class="my-5">
+        <div class="container">
+            <h2 class="text-center">Sobre a Hair House</h2>
+            <p>A Hair House foi fundada por Maria Eduarda em 2015, uma renomada hairstylist com mais de 15 anos de experiência na indústria da beleza. Nascida e criada em Chapecó. Maria sempre teve uma paixão por cabelos, começando sua carreira como assistente em um salão local. Com dedicação e um talento natural para criar penteados únicos, ela rapidamente se destacou e decidiu abrir seu próprio espaço, onde pudesse oferecer um serviço mais personalizado e inovador.
+
+                Desde a sua fundação, a Hair House cresceu e se tornou referência no mercado de penteados de luxo, atendendo a noivas, formandas e celebridades. O salão é conhecido por suas criações exclusivas e pelo atendimento personalizado, que visa realçar a beleza única de cada cliente, proporcionando uma experiência inesquecível.
+                </p>
+            <p>Endereço: Av. Porto Alegre, 1156 D - Chapecó</p>
+    
+            <!-- Google Maps -->
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14630.674258124383!2d-52.6245013!3d-27.0963065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9497c0b41a84f2b%3A0xfad8c9c7431c67e!2sAv.%20Porto%20Alegre%2C%201156%20D%20-%20Centro%2C%20Chapec%C3%B3%20-%20SC%2C%2048960-000!5e0!3m2!1spt-BR!2sbr!4v1695798366372!5m2!1spt-BR!2sbr" 
+                        allowfullscreen=""
+                        loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="text-center py-4">
+        <p>Desenvolvido por Maria Bettinardi - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
